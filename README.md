@@ -25,3 +25,16 @@ Install the dependencies with:
 
 ```bash
 pip install -r requirements.txt
+```
+
+### CLI Syntax
+
+```bash
+./pcap_reader "input_file_path" "output_file(.txt or .csv)" [-P PROTOCOL] [-s SOURCE_PORT] [-d DESTINATION_PORT]
+```
+
+- `"input_file_path"`: Path to the input `.pcap` or `.pcapng` file  
+- `"output_file"`: Output filename (must end in `.txt` or `.csv`)  
+- `-P`, `--protocol`: Filter by protocol (**uppercase**, e.g., TCP, UDP)  
+- `-s`, `--sport`: Filter by source port  
+- `-d`, `--dport`: Filter by destination port

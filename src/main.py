@@ -30,8 +30,7 @@ def run_CLI_mode():
                         help="filter packets by source port")
     parser.add_argument("-d", "--dport", type=int, default=None,
                         help="filter packets by destination port")
-    parser.add_argument("-i", "--info",
-                        help="show only shorted info")
+
     args = parser.parse_args()
 
     print(args)
