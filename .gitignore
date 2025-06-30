@@ -1,0 +1,51 @@
+# Arquivos e diretórios do Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ambiente virtual (caso esteja fora do .venv padrão do poetry)
+.env/
+.venv/
+
+# Arquivos do Poetry
+poetry.lock
+*.egg-info/
+build/
+dist/
+
+# PyInstaller output
+*.spec
+*.exe
+*.dll
+*.so
+*.dylib
+*.log
+*.manifest
+*.tmp
+
+# Diretórios gerados por build
+dist/
+build/
+
+# Configuração específica de IDEs
+.vscode/
+.idea/
+
+# Arquivos temporários, caches, logs e backup
+*.log
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Dados sensíveis, capturas e resultados de análise
+*.pcap
+*.pcapng
+*.csv
+*.txt
+saida.*
+resultados/
