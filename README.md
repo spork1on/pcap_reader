@@ -1,29 +1,27 @@
 # PCAP Reader
-Ferramenta interativa e CLI para leitura, filtragem e exportação de pacotes de arquivos .pcap e .pcapng
+
+Interactive and CLI-based tool for reading, filtering, and exporting packets from `.pcap` and `.pcapng` files
 
 ---
-## Funcionalidades
 
-- Leitura de arquivos '.pcap' e '.pcapng'
-- Filtro por protocolo, porta de origem e destino
-- Exportação em .csv ou .txt
-- Modo interativo
-- Interface da linha de comando (CLI)
+## Features
+
+- Read `.pcap` and `.pcapng` files  
+- Filter by protocol, source port, and destination port
+- Identifies TCP anomalies
+- Export results to `.csv` or `.txt`  
+- Interactive mode for guided usage  
+- Command-line interface (CLI) for quick execution
 
 ---
-## Requisitos
+
+## Requirements
+
 - Python ">=3.11,<4"
 - [Scapy](https://scapy.net/)
-- pyfiglet
+- [pyfiglet](https://pypi.org/project/pyfiglet/)
 
-Instale as dependências com:
+Install the dependencies with:
 
 ```bash
-  pip install -r requirements.txt
-```
-
-Ou iniciar o projeto com poetry com:
-
-```
-poetry install
-```
+pip install -r requirements.txt
